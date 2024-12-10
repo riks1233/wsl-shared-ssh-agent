@@ -29,6 +29,4 @@ else
   chmod 600 $env_file
   # Evaluate the stored environment variables.
   eval "$(cat $env_file)"
-  # Run an ssh-add command for convenience. Can always be interrupted.
-  ssh-add
 fi
